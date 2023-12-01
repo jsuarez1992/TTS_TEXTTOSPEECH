@@ -1,5 +1,3 @@
-# text_to_speech.py
-
 from gtts import gTTS
 import pygame
 import os
