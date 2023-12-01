@@ -1,5 +1,3 @@
-# main.py
-
 import tkinter as tk
 from text_analysis import analyze_text
 from text_to_speech import text_to_speech_pygame  # Change the import statement
@@ -43,4 +41,3 @@ speak_button = tk.Button(root, text="Speak", command=on_speak)
 speak_button.pack()
 
 root.mainloop()
-
